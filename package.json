@@ -9,13 +9,21 @@
     "cz": "git add . && git cz"
   },
   "dependencies": {
-    "vue": "^3.2.25"
+    "@carverry/demo-material": "^0.1.1",
+    "element-plus": "^2.2.2",
+    "sortablejs": "^1.15.0",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.15"
   },
   "devDependencies": {
+    "@carverry/helper": "^0.1.0",
     "@vitejs/plugin-vue": "^2.3.3",
     "conventional-changelog-cli": "^2.2.2",
     "cz-conventional-changelog": "^3.3.0",
     "typescript": "^4.5.4",
+    "unplugin-auto-import": "^0.8.2",
+    "unplugin-element-plus": "^0.4.0",
+    "unplugin-vue-components": "^0.19.5",
     "vite": "^2.9.9",
     "vue-tsc": "^0.34.7"
   },

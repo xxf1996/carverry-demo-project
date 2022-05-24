@@ -1,0 +1,21 @@
+{
+  "path": "package://@carverry/demo-material#common-card",
+  "key": "",
+  "props": {
+    "title": {
+      "path": "",
+      "member": "",
+      "model": false
+    }
+  },
+  "slots": {
+    "btns": [],
+    "default": []
+  },
+  "events": {
+    "init": {
+      "path": "",
+      "member": ""
+    }
+  }
+}

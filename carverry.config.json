@@ -1,0 +1,7 @@
+{
+  "$schema": "https://xiexuefeng.cc/schema/carverry.json",
+  "name": "carverry-demo-project",
+  "sourceDir": "src",
+  "pageOutDir": "src/blocks",
+  "port": 3300
+}
