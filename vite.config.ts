@@ -24,7 +24,10 @@ export default defineConfig({
     Components({
       resolvers: [ElementPlusResolver()],
     }),
-    ElementPlus(),
+    ElementPlus({
+      // 这里的正则确保对@carverry的包也会进行手动导入组件且自动加载样式
+      exclude: [/[/\\]node_modules[/\\](?!@carverry)/, /[/\\]\.git[/\\]/, /[/\\]\.nuxt[/\\]/]
+    }),
   ],
   server: {
     open: true,

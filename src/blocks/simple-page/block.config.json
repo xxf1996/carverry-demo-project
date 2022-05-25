@@ -1,0 +1,92 @@
+{
+  "path": "src/components/SimplePage.vue",
+  "key": "",
+  "props": {},
+  "slots": {
+    "default": [
+      {
+        "path": "package://@carverry/demo-material#common-card",
+        "key": "default-0",
+        "props": {
+          "title": {
+            "path": "src/views/simple-page/logic/consts.ts",
+            "member": "title",
+            "model": false
+          }
+        },
+        "slots": {
+          "btns": [],
+          "default": [
+            {
+              "path": "package://@carverry/demo-material#hello-demo",
+              "key": "default-0-default-0",
+              "props": {
+                "name": {
+                  "path": "",
+                  "member": "",
+                  "model": false
+                }
+              },
+              "slots": {},
+              "events": {}
+            }
+          ]
+        },
+        "events": {
+          "init": {
+            "path": "",
+            "member": ""
+          }
+        }
+      },
+      {
+        "path": "package://@carverry/demo-material#common-card",
+        "key": "default-1",
+        "props": {
+          "title": {
+            "path": "src/views/simple-page/logic/consts.ts",
+            "member": "title1",
+            "model": false
+          }
+        },
+        "slots": {
+          "btns": [
+            {
+              "path": "package://@carverry/demo-material#hello-demo",
+              "key": "default-1-btns-0",
+              "props": {
+                "name": {
+                  "path": "",
+                  "member": "",
+                  "model": false
+                }
+              },
+              "slots": {},
+              "events": {},
+              "ref": {
+                "path": "",
+                "member": ""
+              }
+            }
+          ],
+          "default": []
+        },
+        "events": {
+          "init": {
+            "path": "",
+            "member": ""
+          }
+        },
+        "ref": {
+          "path": "",
+          "member": ""
+        }
+      }
+    ]
+  },
+  "events": {},
+  "ref": {
+    "path": "",
+    "member": ""
+  }
+}

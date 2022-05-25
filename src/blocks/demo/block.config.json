@@ -9,13 +9,53 @@
     }
   },
   "slots": {
-    "btns": [],
-    "default": []
+    "btns": [
+      {
+        "path": "package://@carverry/demo-material#hello-demo",
+        "key": "btns-0",
+        "props": {
+          "name": {
+            "path": "",
+            "member": "",
+            "model": false
+          }
+        },
+        "slots": {},
+        "events": {},
+        "ref": {
+          "path": "",
+          "member": ""
+        }
+      }
+    ],
+    "default": [
+      {
+        "path": "package://@carverry/demo-material#hello-demo",
+        "key": "default-0",
+        "props": {
+          "name": {
+            "path": "",
+            "member": "",
+            "model": false
+          }
+        },
+        "slots": {},
+        "events": {},
+        "ref": {
+          "path": "",
+          "member": ""
+        }
+      }
+    ]
   },
   "events": {
     "init": {
       "path": "",
       "member": ""
     }
+  },
+  "ref": {
+    "path": "",
+    "member": ""
   }
 }
