@@ -9,14 +9,14 @@
     "cz": "git add . && git cz"
   },
   "dependencies": {
-    "@carverry/demo-material": "^0.1.1",
+    "@carverry/demo-material": "^0.1.2",
     "element-plus": "^2.2.2",
     "sortablejs": "^1.15.0",
     "vue": "^3.2.25",
     "vue-router": "^4.0.15"
   },
   "devDependencies": {
-    "@carverry/helper": "^0.1.0",
+    "@carverry/helper": "^0.2.0",
     "@vitejs/plugin-vue": "^2.3.3",
     "conventional-changelog-cli": "^2.2.2",
     "cz-conventional-changelog": "^3.3.0",
