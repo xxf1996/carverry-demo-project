@@ -1,16 +1,26 @@
-# Vue 3 + TypeScript + Vite
+## carverry-demo-project
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+这是基于`carverry`进行搭建的示例项目；
 
-## Recommended IDE Setup
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar)
 
-## Type Support For `.vue` Imports in TS
+### 使用
 
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's Take Over mode by following these steps:
+在参照[快速开始](https://github.com/xxf1996/carverry#%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8B)安装完全局包之后，就可以开始使用这个项目；
 
-1. Run `Extensions: Show Built-in Extensions` from VS Code's command palette, look for `TypeScript and JavaScript Language Features`, then right click and select `Disable (Workspace)`. By default, Take Over mode will enable itself if the default TypeScript extension is disabled.
-2. Reload the VS Code window by running `Developer: Reload Window` from the command palette.
+1. 安装项目依赖：
 
-You can learn more about Take Over mode [here](https://github.com/johnsoncodehk/volar/discussions/471).
+   ```bash
+   yarn
+   ```
+
+2. 启动可视化应用：
+
+   ```bash
+   carverry
+   ```
+
+3. 随便玩耍；
+
+​	
+
